@@ -69,3 +69,4 @@ CREATE TABLE ers_reimbursement(
 ![Database schema](https://github.com/TommyArnette/Project1/blob/main/P1_DB_Schema.PNG)
 * Run the application from the Intellij IDE
 * Enter the following URL into your web browser: http://localhost:9090/project1_TA
+![Project 1 Login Page](https://github.com/TommyArnette/Project1/blob/main/P1_LoginPage.PNG)
