@@ -86,3 +86,5 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 ![Project 1 Login Page](https://github.com/TommyArnette/Project1/blob/main/P1_LoginPage.PNG)
 
 ## Usage
+* You may login either as an employee or a finance manager
+* Employees that login are redirected to the employee dashboard. Their name and role dynamically appear in the top-left corner of the nav bar
