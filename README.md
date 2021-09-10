@@ -63,4 +63,5 @@ CREATE TABLE ers_reimbursement(
 	reimb_resolver int REFERENCES ers_users(ers_users_id),
 	reimb_status_id int REFERENCES ers_reimbursement_status(reimb_status_id) NOT NULL ON UPDATE CASCADE,
 	reimb_type_id int REFERENCES ers_reimbursement_type(reimb_type_id) NOT NULL ON UPDATE CASCADE
-);```
+);
+```
