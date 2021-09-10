@@ -91,4 +91,4 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 
 ![Logging in as an employee](https://github.com/TommyArnette/Project1/blob/main/LoggingIn.PNG)
 
-![Employee Dashboard]()
+![Employee Dashboard](https://github.com/TommyArnette/Project1/blob/main/EmployeeDashboard.PNG)
