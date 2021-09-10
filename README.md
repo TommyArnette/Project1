@@ -92,3 +92,13 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 ![Logging in as an employee](https://github.com/TommyArnette/Project1/blob/main/LoggingIn.PNG)
 
 ![Employee Dashboard](https://github.com/TommyArnette/Project1/blob/main/EmployeeDashboard.PNG)
+
+* Beneath the table of this employee's reimbursements, information can be entered and the create button clicked to create a new reimbursement
+
+* Finance Managers that sign in are taken to the manager dashboard. Their name and role dynamically appear in the top-left corner of the nav bar
+
+![Finance Manager Dashboard]()
+
+![Finance Manager Dashboard]()
+
+* 
