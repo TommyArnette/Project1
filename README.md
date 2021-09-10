@@ -30,7 +30,8 @@ To-do list:
 ![TomCat Project 1 Config](https://github.com/TommyArnette/Project1/blob/main/TomCat_P1_Config.PNG)
 * Create a new database in DBeaver
 * Create a new SQL script and run the following code:
-> `CREATE TABLE ers_reimbursement_status(
+> ```
+> CREATE TABLE ers_reimbursement_status(
 	reimb_status_id SERIAL PRIMARY KEY,
 	reimb_status varchar(10) NOT NULL
 );
@@ -62,4 +63,4 @@ CREATE TABLE ers_reimbursement(
 	reimb_resolver int REFERENCES ers_users(ers_users_id),
 	reimb_status_id int REFERENCES ers_reimbursement_status(reimb_status_id) NOT NULL ON UPDATE CASCADE,
 	reimb_type_id int REFERENCES ers_reimbursement_type(reimb_type_id) NOT NULL ON UPDATE CASCADE
-);`
+);```
