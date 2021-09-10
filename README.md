@@ -101,4 +101,14 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 
 ![Finance Manager Dashboard](https://github.com/TommyArnette/Project1/blob/main/ManagerDashboard.PNG)
 
-* 
+* Managers may sort the list of reimbursements by utilizing the filter buttons located above the reimbursement table
+
+![All Reimbursements]()
+
+![Pending Reimbursements]()
+
+![Approved Reimbursements]()
+
+![Denied Reimbursements]()
+
+* Finance Managers may approve or deny a reimbursement by entering the reimbursement ID and clicking approve or deny beneath the reimbursement table
