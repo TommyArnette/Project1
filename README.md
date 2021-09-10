@@ -27,3 +27,6 @@ To-do list:
 * To clone into the project, use: git clone https://github.com/TommyArnette/Project1.git
 * Install DBeaver, link your Amazon AWS database
 * Install TomCat and configure the Deployment Directory, Context Path, Server Port, and Admin Port (shown below)
+![TomCat Project 1 Config](https://github.com/TommyArnette/Project1/blob/main/TomCat_P1_Config.PNG)
+* Create a new database in DBeaver
+* Create a new SQL script and run the following code (image below)
