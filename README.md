@@ -30,7 +30,7 @@ To-do list:
 ![TomCat Project 1 Config](https://github.com/TommyArnette/Project1/blob/main/TomCat_P1_Config.PNG)
 * Create a new database in DBeaver
 * Create a new SQL script and run the following code:
-> ```
+```
 > CREATE TABLE ers_reimbursement_status(
 	reimb_status_id SERIAL PRIMARY KEY,
 	reimb_status varchar(10) NOT NULL
