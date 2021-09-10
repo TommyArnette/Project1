@@ -31,7 +31,7 @@ To-do list:
 * Create a new database in DBeaver
 * Create a new SQL script and run the following code:
 ```
-> CREATE TABLE ers_reimbursement_status(
+CREATE TABLE ers_reimbursement_status(
 	reimb_status_id SERIAL PRIMARY KEY,
 	reimb_status varchar(10) NOT NULL
 );
