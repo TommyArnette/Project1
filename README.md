@@ -103,12 +103,12 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 
 * Managers may sort the list of reimbursements by utilizing the filter buttons located above the reimbursement table
 
-![All Reimbursements]()
+![Pending Reimbursements](https://github.com/TommyArnette/Project1/blob/main/Pending.PNG)
 
-![Pending Reimbursements]()
+![Approved Reimbursements](https://github.com/TommyArnette/Project1/blob/main/Approved.PNG)
 
-![Approved Reimbursements]()
-
-![Denied Reimbursements]()
+![Denied Reimbursements](https://github.com/TommyArnette/Project1/blob/main/Denied.PNG)
 
 * Finance Managers may approve or deny a reimbursement by entering the reimbursement ID and clicking approve or deny beneath the reimbursement table
+* All users may logout by clicking the logout button in the upper-right corner of the nav bar
+* Note: Sessions are established when users sign in and terminated when they logout. An employee that has signed in may not access another employee's list of reimbursements
