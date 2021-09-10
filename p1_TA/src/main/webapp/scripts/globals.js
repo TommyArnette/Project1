@@ -1,0 +1,1 @@
+var domain = `http://localhost:9090/project1_TA`

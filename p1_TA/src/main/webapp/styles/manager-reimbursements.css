@@ -1,0 +1,58 @@
+#reimb-table{
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+#outer-container{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+#resolve-reimb-form{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto 0px;
+}
+
+#resolve-container{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px auto 0px;
+}
+
+#reimb-resolve-input{
+    width: 50%;
+}
+
+#approve-reimb{
+    width: 24%;
+}
+
+#deny-reimb{
+    width: 24%;
+}
+
+#filter-container{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+#all-reimb{
+    width: 24.8%;
+}
+
+#pending-reimb{
+    width: 24.8%;
+}
+
+#approved-reimb{
+    width: 24.8%;
+}
+
+#denied-reimb{
+    width: 24.8%;
+}

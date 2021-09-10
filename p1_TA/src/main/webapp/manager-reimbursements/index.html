@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Reimbursement Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/manager-reimbursements.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://localhost:9090/project1_TA/" id="nav-bar-text">
+            
+          </a>
+          <button class="btn btn-light" id="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <br>
+
+    <!-- 4 buttons to display reimbursements based on their reimbursement status -->
+    <div class="container-fluid" id="filter-container">
+      <button class="btn btn-primary" id="all-reimb" value="">All</button>
+      <button class="btn btn-warning" id="pending-reimb" value="Pending">Pending</button>
+      <button class="btn btn-success" id="approved-reimb" value="Approved">Approved</button>
+      <button class="btn btn-danger" id="denied-reimb" value="Denied">Denied</button>
+    </div>
+
+    <div class="container-fluid">
+      <div class="reimbursement-list" id="reimb-container">
+        <table class="table table-dark table-striped table-hover table-sm" id="reimb-table">
+          <thead>
+            <th>ID</th>
+            <th>Amount</th>
+            <th>Date Submitted</th>
+            <th>Date Resolved</th>
+            <th>Description</th>
+            <th>Receipt</th>
+            <th>Author ID</th>
+            <th>Resolver ID</th>
+            <th>Status</th>
+            <th>Type</th>
+          </thead>
+          <tbody id="reimb-table-body">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- input box to enter Reimb ID and the approve and deny buttons -->
+    <form id="resolve-reimb-form">
+        <div id="resolve-container">
+          <input type="text" id="reimb-resolve-input" placeholder="Reimbursement ID">
+          <button class="btn btn-success" id="approve-reimb">Approve</button>
+          <button class="btn btn-danger" id="deny-reimb">Deny</button>
+        </div>
+    </form>
+    
+    
+    <script src="../scripts/manager-reimbursements.js"></script>
+    <script src="../scripts/globals.js"></script>
+</body>
+</html>

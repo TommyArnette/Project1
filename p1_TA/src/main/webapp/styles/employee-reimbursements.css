@@ -1,0 +1,37 @@
+#reimb-table{
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+#create-reimb-form{
+    display: flex;
+    justify-content: center;
+    width:90%;
+    margin: 0px auto 0px;
+}
+
+.create-reimb-container{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin: 0px auto 0px;
+}
+
+.create-flex{
+    display:flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+
+#reimb-amount{
+    width: 30%;
+}
+
+#reimb-description{
+    width: 30%;
+}
+
+#create-btn{
+    width: 20%;
+}

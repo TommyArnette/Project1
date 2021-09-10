@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Reimbursement Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/employee-reimbursements.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://localhost:9090/project1_TA/" id="nav-bar-text">
+            
+          </a>
+          <button class="btn btn-light" id="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="reimbursement-list" id="reimb-container">
+        <table class="table table-dark table-striped table-hover table-sm" id="reimb-table">
+          <th>ID</th>
+          <th>Amount</th>
+          <th>Date Submitted</th>
+          <th>Date Resolved</th>
+          <th>Description</th>
+          <th>Receipt</th>
+          <th>Author ID</th>
+          <th>Resolver ID</th>
+          <th>Status</th>
+          <th>Type</th>
+        </table>
+      </div>
+    </div>
+
+    <form id="create-reimb-form">
+      <div class="create-reimb-container">
+        <div class="create-flex">
+         
+            <input type="number" id="reimb-amount" placeholder="Reimbursement Amount">
+            <input type="text" id="reimb-description" placeholder="Description">
+            <span>
+            <select class="form-select" aria-label="Default select example" id="reimb-type"> 
+              <option selected>Reimbursement Type</option>
+              <option value="1">1. Lodging</option>
+              <option value="2">2. Travel</option>
+              <option value="3">3. Food</option>
+              <option value="4">4. Other</option>
+            </select></span>
+            <button class="btn btn-success" id="create-btn">Create</button>
+          
+        </div>
+      </div>
+    </form>
+    
+
+      <script src="../scripts/employee-reimbursements.js"></script>  
+      <script src="../scripts/globals.js"></script>  
+      <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> -->
+
+
+</body>
+</html>
