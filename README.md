@@ -65,3 +65,5 @@ CREATE TABLE ers_reimbursement(
 	reimb_type_id int REFERENCES ers_reimbursement_type(reimb_type_id) NOT NULL ON UPDATE CASCADE
 );
 ```
+* The resulting schema can be seen below
+![Database schema](https://github.com/TommyArnette/Project1/blob/main/P1_DB_Schema.PNG)
