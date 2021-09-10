@@ -30,6 +30,7 @@ To-do list:
 ![TomCat Project 1 Config](https://github.com/TommyArnette/Project1/blob/main/TomCat_P1_Config.PNG)
 * Create a new database in DBeaver
 * Create a new SQL script and run the following code:
+
 ```
 CREATE TABLE ers_reimbursement_status(
 	reimb_status_id SERIAL PRIMARY KEY,
@@ -65,8 +66,11 @@ CREATE TABLE ers_reimbursement(
 	reimb_type_id int REFERENCES ers_reimbursement_type(reimb_type_id) NOT NULL ON UPDATE CASCADE
 );
 ```
+
 * The resulting schema can be seen below
+
 ![Database schema](https://github.com/TommyArnette/Project1/blob/main/P1_DB_Schema.PNG)
+
 * It is necessary to create an employee account and a finance manager account in your DBeaver database. Sample code can be found below:
 ```
 INSERT INTO ers_users
@@ -75,6 +79,10 @@ VALUES (DEFAULT, 'employee2', 'password', 'Maximillian', 'Moneybaggs', 'maxbaggs
 INSERT INTO ers_users 
 VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 2);
 ```
+
 * Run the application from the Intellij IDE
 * Enter the following URL into your web browser: http://localhost:9090/project1_TA
+
 ![Project 1 Login Page](https://github.com/TommyArnette/Project1/blob/main/P1_LoginPage.PNG)
+
+## Usage
