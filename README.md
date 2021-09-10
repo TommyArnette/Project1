@@ -24,3 +24,6 @@ To-do list:
 * Allow employees to upload an image of their receipt when submitting reimbursement request
 
 ## Getting Started
+* To clone into the project, use: git clone https://github.com/TommyArnette/Project1.git
+* Install DBeaver, link your Amazon AWS database
+* Install TomCat and configure the Deployment Directory, Context Path, Server Port, and Admin Port (shown below)
