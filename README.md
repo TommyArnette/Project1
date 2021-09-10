@@ -88,3 +88,7 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 ## Usage
 * You may login either as an employee or a finance manager
 * Employees that login are redirected to the employee dashboard. Their name and role dynamically appear in the top-left corner of the nav bar
+
+![Logging in as an employee](https://github.com/TommyArnette/Project1/blob/main/LoggingIn.PNG)
+
+![Employee Dashboard]()
