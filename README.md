@@ -67,6 +67,14 @@ CREATE TABLE ers_reimbursement(
 ```
 * The resulting schema can be seen below
 ![Database schema](https://github.com/TommyArnette/Project1/blob/main/P1_DB_Schema.PNG)
+* It is necessary to create an employee account and a finance manager account in your DBeaver database. Sample code can be found below:
+```
+INSERT INTO ers_users
+VALUES (DEFAULT, 'employee2', 'password', 'Maximillian', 'Moneybaggs', 'maxbaggs@fake.com', 1);
+
+INSERT INTO ers_users 
+VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 2);
+```
 * Run the application from the Intellij IDE
 * Enter the following URL into your web browser: http://localhost:9090/project1_TA
 ![Project 1 Login Page](https://github.com/TommyArnette/Project1/blob/main/P1_LoginPage.PNG)
