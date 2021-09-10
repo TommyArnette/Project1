@@ -97,8 +97,8 @@ VALUES (DEFAULT, 'finance2', 'password', 'Severus', 'Snape', 'ssnape@fake.com', 
 
 * Finance Managers that sign in are taken to the manager dashboard. Their name and role dynamically appear in the top-left corner of the nav bar
 
-![Finance Manager Dashboard]()
+![Finance Manager Dashboard](https://github.com/TommyArnette/Project1/blob/main/ManagerLogin.PNG)
 
-![Finance Manager Dashboard]()
+![Finance Manager Dashboard](https://github.com/TommyArnette/Project1/blob/main/ManagerDashboard.PNG)
 
 * 
